@@ -1,55 +1,163 @@
-# Netflix Movies and TV Shows - Exploratory Data Analysis
+# 🎬 Netflix Exploratory Data Analysis (EDA)
 
-## Project Description
-This project is an Exploratory Data Analysis (EDA) of the Netflix Movies and TV Shows dataset. The goal is to uncover insights regarding Netflix's content library, including trends in content addition, geographic distribution, ratings, and popular genres. 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" />
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas" />
+  <img src="https://img.shields.io/badge/NumPy-Numerical%20Computing-blue?logo=numpy" />
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange" />
+  <img src="https://img.shields.io/badge/Seaborn-Statistical%20Plots-lightblue" />
+  <img src="https://img.shields.io/badge/Status-Completed-success" />
+  <img src="https://img.shields.io/badge/Internship-CodeAlpha-red" />
+</p>
 
-This beginner-friendly project demonstrates the use of Python and popular data science libraries to clean, analyze, and visualize data without relying on advanced statistical methods or machine learning models.
+## 📌 Project Overview
 
-## Dataset Information
-The dataset used in this project is `netflix_titles.csv`, which contains details about all the movies and TV shows available on Netflix, including:
-- `show_id`: Unique ID for every Movie / Tv Show
-- `type`: Identifier - A Movie or TV Show
-- `title`: Title of the Movie / Tv Show
-- `director`: Director of the Movie
-- `cast`: Actors involved in the movie/show
-- `country`: Country where the movie/show was produced
-- `date_added`: Date it was added on Netflix
-- `release_year`: Actual Release year of the movie/show
-- `rating`: TV Rating of the movie/show
-- `duration`: Total Duration - in minutes or number of seasons
+This project presents an **Exploratory Data Analysis (EDA)** of the Netflix dataset to uncover meaningful insights about movies and TV shows available on the platform.
 
-## Installation Steps
-1. Clone this repository or download the project files.
-2. Ensure you have Python installed on your system.
-3. Install the required libraries using `pip`:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Navigate to the `notebook` directory and launch Jupyter Notebook:
-   ```bash
-   cd notebook
-   jupyter notebook Netflix_EDA.ipynb
-   ```
+Using Python and popular data analysis libraries, the project explores content distribution, genres, release trends, ratings, countries, and other important characteristics through statistical analysis and visualizations.
 
-## Project Screenshots
-*Placeholders for visualizations generated in the notebook:*
-- ![Number of Movies vs TV Shows](../images/movies_vs_tv_shows.png)
-- ![Top 10 Countries](../images/top_countries.png)
-- ![Content Added Over Years](../images/content_added.png)
-- ![Distribution of Ratings](../images/distribution_ratings.png)
+---
 
-## Directory Structure
-```
-CodeAlpha_EDA_Netflix/
+## 🎯 Objectives
+
+* Clean and preprocess the Netflix dataset
+* Perform exploratory data analysis
+* Visualize important trends and patterns
+* Identify popular genres and ratings
+* Analyze content growth over the years
+* Generate meaningful business insights
+
+---
+
+## 📂 Dataset
+
+The dataset contains information about Netflix titles, including:
+
+* Title
+* Type (Movie / TV Show)
+* Director
+* Cast
+* Country
+* Date Added
+* Release Year
+* Rating
+* Duration
+* Genre
+* Description
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## 📊 Exploratory Analysis
+
+The project includes analyses such as:
+
+* Dataset overview
+* Missing value analysis
+* Data cleaning
+* Movies vs TV Shows
+* Content rating distribution
+* Country-wise content analysis
+* Genre distribution
+* Release year trends
+* Year-wise Netflix growth
+* Top contributing countries
+* Duration analysis
+
+---
+
+## 📈 Key Insights
+
+* Netflix contains significantly more Movies than TV Shows.
+* Content additions increased rapidly after 2015.
+* Drama and International content dominate the catalog.
+* TV-MA is among the most common content ratings.
+* The United States contributes the highest number of titles.
+
+---
+
+## 📁 Project Structure
+
+```text
+CodeAlpha_Netflix_EDA
 │
 ├── dataset/
-│   └── netflix_titles.csv
-│
 ├── notebook/
-│   └── Netflix_EDA.ipynb
-│
 ├── images/
 ├── README.md
 ├── requirements.txt
 └── LICENSE
 ```
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/kasualtaf/CodeAlpha_Netflix_EDA.git
+```
+
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+4. Open the notebook and run all cells.
+
+---
+
+## 📷 Sample Visualizations
+
+Example visualizations include:
+
+* Genre Distribution
+* Rating Distribution
+* Movies vs TV Shows
+* Release Year Analysis
+* Country-wise Content
+
+---
+
+## 🚀 Future Improvements
+
+* Build an interactive dashboard
+* Perform recommendation analysis
+* Deploy using Streamlit
+* Add advanced statistical insights
+
+---
+
+## 👨‍💻 Author
+
+**Altaf Ahmed Kasu**
+
+Data Science Student | Python | Data Analytics | Machine Learning
+
+GitHub: https://github.com/kasualtaf
+
+LinkedIn: https://www.linkedin.com/in/altaf-kasu-0161252b6
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
